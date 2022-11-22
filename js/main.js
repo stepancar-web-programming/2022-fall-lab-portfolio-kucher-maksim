@@ -66,13 +66,13 @@ scrolling.forEach(sec =>{
                 text.textContent = "Я Максим кучер";
             }, 0);
             setTimeout(() => {
-              text.textContent = "Freelancer";
+              text.textContent = "Музыкант";
           },2000);
             setTimeout(() => {
-                text.textContent = "Blogger";
+                text.textContent = "Модель";
             }, 3000);
             setTimeout(() => {
-                text.textContent = "YouTuber";
+                text.textContent = "Data Scientist";
             }, 7000); 
         }
 
