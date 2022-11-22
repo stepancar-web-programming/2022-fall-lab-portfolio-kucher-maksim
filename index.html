@@ -2,9 +2,14 @@
 <html lang="ru">
 
 <head>
+
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Maxim's Portfolio</title>
+
+  <!-- <meta content="" name="keywords">
+  <meta content="" name="description"> -->
 
   <!-- Google шрифты -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
@@ -21,6 +26,7 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 
+  <!-- <link rel="shortcut icon" href="images/favicon.png"> -->
 
 </head>
 
@@ -38,12 +44,14 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">начало</a></li>
-          <li><a href="#about" class="smoothScroll">услуги</a></li>
-          <li><a href="#journal" class="smoothScroll">резюме</a></li>
-          <li><a href="#portfolio" class="smoothScroll">увлечения</a></li>
-          <li><a href="#contact" class="smoothScroll">контакты</a></li>
+          <section>
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="about">About</a></li>
+          <li><a href="#portfolio" class="portfolio">Portfolio</a></li>
+          <li><a href="#journal" class="journal">Blog</a></li>
+          <li><a href="#contact" class="contact">Contact</a></li>
         </ul>
+      </section>
 
       </div>
     </div>
@@ -56,12 +64,28 @@
 
     <div class="container">
       <div class="header-content">
-        <h1><span class="typed"></span></h1>
-        <p>Data Scientist, Музыкант, Модель</p>
+
+
+
+        <h1><span class="typed"> 
+          
+          
+          <span class="text first-text"> </span>
+          <span class="text sec-text">  Я Кучер Максим </span>
+          
+    
+          <!-- "Data Scientist", "Музыкант", "Модель" -->
+          
+        </span></h1>
+        <p>Data Scientist, Вокалист, Модель</p>
+
       </div>
     </div>
   </div>
 
+
+
+  
 
 
   <!-- Про меня -->
@@ -148,11 +172,153 @@
 
 
 
+  <!-- Направления -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Мои увлечения</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">все</li>
+              <li class="filter" data-filter=".music">музыка</li>
+              <li class="filter" data-filter=".modeling">моделинг</li>
+              <li class="filter" data-filter=".sport">спорт</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/12.jpg">
+                <img src="images/portfolio/12.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/13.jpg">
+                <img src="images/portfolio/13.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail  music">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/7.jpg">
+                <img src="images/portfolio/7.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/10.jpg">
+                <img src="images/portfolio/10.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/8.jpg">
+                <img src="images/portfolio/8.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/9.jpg">
+                <img src="images/portfolio/9.jpg" alt="img">
+              </a>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/16.jpg">
+                <img src="images/portfolio/16.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/11.jpg">
+                <img src="images/portfolio/11.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img">
+              </a>
+            </div>
+
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/14.jpg">
+                <img src="images/portfolio/14.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/15.jpg">
+                <img src="images/portfolio/15.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/17.jpg">
+                <img src="images/portfolio/17.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/18.jpg">
+                <img src="images/portfolio/18.jpg" alt="img">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
 
   <!-- Портфолио по направлениям -->
-  <hr style="padding:0; margin: 0;">
   <div id="journal" class="text-left paddsection">
 
     <div class="container">
@@ -219,169 +385,6 @@
 
   </div>
 
-  <!-- Направления -->
-
-  <div id="portfolio" class="text-center paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>Мои увлечения</h2>
-        </div>
-      </div>
-  
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-  
-            <div class="portfolio-list">
-  
-              <ul class="nav list-unstyled" id="portfolio-flters">
-                <li class="filter filter-active" data-filter=".all">все</li>
-                <li class="filter" data-filter=".music">музыка</li>
-                <li class="filter" data-filter=".modeling">моделинг</li>
-                <li class="filter" data-filter=".sport">спорт</li>
-                <li class="filter" data-filter=".video">видео</li>
-              </ul>
-  
-            </div>
-  
-            <div class="portfolio-container">
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
-                <a class="popup-img" href="images/portfolio/1.jpg">
-                  <img src="images/portfolio/1.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
-                <a class="popup-img" href="images/portfolio/2.jpg">
-                  <img src="images/portfolio/2.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
-                <a class="popup-img" href="images/portfolio/12.jpg">
-                  <img src="images/portfolio/12.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
-                <a class="popup-img" href="images/portfolio/6.jpg">
-                  <img src="images/portfolio/6.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/13.jpg">
-                  <img src="images/portfolio/13.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
-                <a class="popup-img" href="images/portfolio/5.jpg">
-                  <img src="images/portfolio/5.jpg" alt="img">
-                </a>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
-                <a class="popup-img" href="images/portfolio/7.jpg">
-                  <img src="images/portfolio/7.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
-                <a class="popup-img" href="images/portfolio/10.jpg">
-                  <img src="images/portfolio/10.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
-                <a class="popup-img" href="images/portfolio/8.jpg">
-                  <img src="images/portfolio/8.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
-                <a class="popup-img" href="images/portfolio/9.jpg">
-                  <img src="images/portfolio/9.jpg" alt="img">
-                </a>
-              </div>
-  
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/16.jpg">
-                  <img src="images/portfolio/16.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
-                <a class="popup-img" href="images/portfolio/11.jpg">
-                  <img src="images/portfolio/11.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
-                <a class="popup-img" href="images/portfolio/3.jpg">
-                  <img src="images/portfolio/3.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
-                <a class="popup-img" href="images/portfolio/4.jpg">
-                  <img src="images/portfolio/4.jpg" alt="img">
-                </a>
-              </div>
-  
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/14.jpg">
-                  <img src="images/portfolio/14.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/15.jpg">
-                  <img src="images/portfolio/15.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/17.jpg">
-                  <img src="images/portfolio/17.jpg" alt="img">
-                </a>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
-                <a class="popup-img" href="images/portfolio/18.jpg">
-                  <img src="images/portfolio/18.jpg" alt="img">
-                </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
-                  <video width="300" height="300" controls="controls" poster="images/portfolio/video1_pre.jpg">
-                      <source src="images/portfolio/video_1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                  </video>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
-                  <video width="300" height="300" controls="controls" poster="images/blog-post-1.jpg">
-                    <source src="images/portfolio/video_2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                  </video>
-              </div>
-  
-              <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
-                <video width="300" height="300" controls="controls" poster="images/blog-post-3.jpg">
-                  <source src="images/portfolio/video_4.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                </video>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-  
 
 
   <div id="contact" class="paddsection">
