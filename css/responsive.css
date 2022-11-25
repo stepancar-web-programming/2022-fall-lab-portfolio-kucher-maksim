@@ -1,22 +1,20 @@
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {}
 
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
 
   nav {
     padding: 10px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -27,6 +25,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
@@ -36,21 +35,25 @@
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
- 
+
   #portfolio .portfolio-list .nav li {
     float: none;
     margin: 20px;
@@ -79,12 +82,14 @@
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -95,6 +100,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
@@ -104,16 +110,20 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
@@ -147,12 +157,14 @@
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -163,6 +175,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
@@ -172,16 +185,20 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
@@ -214,12 +231,14 @@
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -230,6 +249,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
@@ -239,16 +259,20 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
@@ -281,12 +305,14 @@
   nav {
     padding: 20px 15px;
   }
+
   .nav-menu {
     margin-top: 40px;
     display: none;
     float: none;
     width: 100%;
   }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -297,6 +323,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .responsive {
     float: right;
     padding-top: 15px;
@@ -306,16 +333,20 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
+
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
+
   #about .about-descr .p-heading {
     font-size: 20px;
   }
+
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
@@ -340,5 +371,5 @@
     float: none;
     display: inline-block;
   }
-  
+
 }
