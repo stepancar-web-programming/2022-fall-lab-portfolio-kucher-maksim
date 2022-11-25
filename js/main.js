@@ -24,6 +24,7 @@ document.getElementsByTagName('html, body')
 
 let scrolling = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('main-nav, main-nav-subpage')
+
 window.onscroll = () => {
   scrolling.forEach(sec => {
     let top = window.scrollY

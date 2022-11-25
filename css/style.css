@@ -167,7 +167,6 @@ p {
   margin-bottom: 30px;
 }
 
-
 nav {
   position: fixed;
   background: #fff;
@@ -270,7 +269,6 @@ nav ul li a {
   font-size: 15px;
 }
 
-
 #about {
   width: 100%;
   height: auto;
@@ -337,7 +335,6 @@ nav ul li a {
   line-height: 44px;
 }
 
-
 .services-carousel .owl-stage-outer {
   overflow: hidden;
 }
@@ -367,12 +364,10 @@ nav ul li a {
   display: none;
 }
 
-
 #portfolio {
   position: relative;
   padding-bottom: 50px;
 }
-
 
 #portfolio .portfolio-list {
   margin-bottom: 50px;
@@ -411,12 +406,10 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-
 #portfolio .portfolio-container {
   margin-bottom: 50px;
   width: 100%;
 }
-
 
 .portfolio-thumbnail {
   margin-bottom: 30px;
@@ -510,7 +503,6 @@ nav ul li a {
   width: 100%;
 }
 
-
 #contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
@@ -544,7 +536,6 @@ nav ul li a {
   font-weight: 400;
   font-size: 13px;
 }
-
 
 #footer {
   background: #f7f7f7;
