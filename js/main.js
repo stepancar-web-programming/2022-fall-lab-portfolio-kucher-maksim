@@ -1,42 +1,39 @@
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('a[href^="#"]').forEach(el => {
-    el.addEventListener('click', e => {
+  document.querySelectorAll('a[href^="#"]').forEach((el) => {
+    el.addEventListener('click', (e) => {
       console.log('RES: ', e)
     })
   })
-
-  document.querySelectorAll('a').forEach(el => {
-    el.addEventListener('active', e => {
-      var element = document.getElementsByClassName('active')
+  document.querySelectorAll('a').forEach((el) => {
+    el.addEventListener('active', (e) => {
+      const element = document.getElementsByClassName('active')
       element.classList.removeClass('active')
     })
   })
 
-  var target = this.hash,
-    menu = target
-
+  let target = this.hash;
+  const menu = target
   target = function (el) {
     return document.querySelectorAll(target)
   }
 })
-
 document.getElementsByTagName('html, body')
 
-let scrolling = document.querySelectorAll('section')
-let navLinks = document.querySelectorAll('main-nav, main-nav-subpage')
+const scrolling = document.querySelectorAll('section')
+const navLinks = document.querySelectorAll('main-nav, main-nav-subpage')
 
 window.onscroll = () => {
-  scrolling.forEach(sec => {
-    let top = window.scrollY
-    let offset = sec.offsetTop
-    let height = sec.offsetHeight
-    let id = sec.getAttribute('id')
+  scrolling.forEach((sec) => {
+    const top = window.scrollY
+    const offset = sec.offsetTop
+    const height = sec.offsetHeight
+    const id = sec.getAttribute('id')
 
     if (top >= offset && top < offset + height) {
-      navLinks.forEach(links => {
+      navLinks.forEach((links) => {
         links.classList.remove('smoothScroll')
         document
-          .querySelector('main-nav, main-nav-subpage  a[href*=' + id + ']')
+          .querySelector(`main-nav, main-nav-subpage  a[href*=${id}]`)
           .classList.add('smoothScroll')
       })
     }
@@ -70,16 +67,16 @@ $('.services-carousel').owlCarousel({
   dots: true,
   nav: false,
   responsiveClass: true,
-  responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+  responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } },
 })
 
-var magnifPopup = function () {
+const magnifPopup = function () {
   $('.popup-img').magnificPopup({
     type: 'image',
     removalDelay: 300,
     mainClass: 'mfp-with-zoom',
     gallery: {
-      enabled: true
+      enabled: true,
     },
     zoom: {
       enabled: true,
@@ -87,21 +84,21 @@ var magnifPopup = function () {
       duration: 300,
       easing: 'ease-in-out',
 
-      opener: function (openerElement) {
+      opener(openerElement) {
         return openerElement.is('img')
           ? openerElement
           : openerElement.find('img')
-      }
-    }
+      },
+    },
   })
 }
 
 magnifPopup()
 
-$(window).load(function () {
-  var portfolioIsotope = $('.portfolio-container').isotope({
+$(window).load(() => {
+  const portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
-    layoutMode: 'fitRows'
+    layoutMode: 'fitRows',
   })
 
   $('#portfolio-flters li').on('click', function () {
