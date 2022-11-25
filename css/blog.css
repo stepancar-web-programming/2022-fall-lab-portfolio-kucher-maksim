@@ -1,11 +1,10 @@
-
 .subpage-nav {
   display: block !important;
   position: relative;
 }
 
 
-.img-responsive{
+.img-responsive {
   width: 100%;
   height: 100%;
 }
@@ -89,4 +88,3 @@ blockquote {
   border: none;
   border-left: 4px solid #b8a07e;
 }
-
