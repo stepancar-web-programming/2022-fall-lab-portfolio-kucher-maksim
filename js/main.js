@@ -1,21 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('a[href^="#"]').forEach((el) => {
-    el.addEventListener('click', (e) => {
-      console.log('RES: ', e)
-    })
-  })
-  document.querySelectorAll('a').forEach((el) => {
-    el.addEventListener('active', (e) => {
+  document.querySelectorAll('a').forEach(el => {
+    el.addEventListener('active', () => {
       const element = document.getElementsByClassName('active')
       element.classList.removeClass('active')
     })
   })
-
-  let target = this.hash;
-  const menu = target
-  target = function (el) {
-    return document.querySelectorAll(target)
-  }
 })
 document.getElementsByTagName('html, body')
 
@@ -23,14 +12,14 @@ const scrolling = document.querySelectorAll('section')
 const navLinks = document.querySelectorAll('main-nav, main-nav-subpage')
 
 window.onscroll = () => {
-  scrolling.forEach((sec) => {
+  scrolling.forEach(sec => {
     const top = window.scrollY
     const offset = sec.offsetTop
     const height = sec.offsetHeight
     const id = sec.getAttribute('id')
 
     if (top >= offset && top < offset + height) {
-      navLinks.forEach((links) => {
+      navLinks.forEach(links => {
         links.classList.remove('smoothScroll')
         document
           .querySelector(`main-nav, main-nav-subpage  a[href*=${id}]`)
@@ -67,7 +56,17 @@ $('.services-carousel').owlCarousel({
   dots: true,
   nav: false,
   responsiveClass: true,
-  responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } },
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 2
+    },
+    900: {
+      items: 4
+    }
+  }
 })
 
 const magnifPopup = function () {
@@ -76,7 +75,7 @@ const magnifPopup = function () {
     removalDelay: 300,
     mainClass: 'mfp-with-zoom',
     gallery: {
-      enabled: true,
+      enabled: true
     },
     zoom: {
       enabled: true,
@@ -84,12 +83,12 @@ const magnifPopup = function () {
       duration: 300,
       easing: 'ease-in-out',
 
-      opener(openerElement) {
+      opener (openerElement) {
         return openerElement.is('img')
           ? openerElement
           : openerElement.find('img')
-      },
-    },
+      }
+    }
   })
 }
 
@@ -98,13 +97,15 @@ magnifPopup()
 $(window).load(() => {
   const portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
-    layoutMode: 'fitRows',
+    layoutMode: 'fitRows'
   })
 
   $('#portfolio-flters li').on('click', function () {
     $('#portfolio-flters li').removeClass('filter-active')
     $(this).addClass('filter-active')
 
-    portfolioIsotope.isotope({ filter: $(this).data('filter') })
+    portfolioIsotope.isotope({
+      filter: $(this).data('filter')
+    })
   })
 })
