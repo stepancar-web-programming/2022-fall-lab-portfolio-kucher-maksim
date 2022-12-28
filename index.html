@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Maxim's Portfolio</title>
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+    rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i>
+        </div>
+        <ul class="nav-menu list-unstyled">
+          <section>
+            <li><a href="#header" class="smoothScroll">Home</a></li>
+            <li><a href="#about" class="about">About</a></li>
+            <li><a href="#portfolio" class="portfolio">Portfolio</a></li>
+            <li><a href="#journal" class="journal">Blog</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
+        </ul>
+        </section>
+      </div>
+    </div>
+  </nav>
+
+  <div id="header" class="home">
+    <div class="container">
+      <div class="header-content">
+        <h1><span class="typed">
+            <span class="text first-text"> </span>
+            <span class="text sec-text"> Я Кучер Максим </span>
+          </span>
+        </h1>
+        <p>Data Scientist, Вокалист, Модель</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">Я Data Scientist с олимпиадным прошлым в математике. Считаю что наука изменит мир к
+              лучшему.</p>
+            <p class="separator">Мой подход к задачам это полное погружение в предметную область, строгая математика и
+              главное итоговая прикладная польза.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <div class="services-carousel owl-theme">
+        <div class="services-block">
+          <span>ML в бизнесе</span>
+          <p class="separator">Решу задачи оттока, кластеризации пользователей и предсказания поведения клиентов. </p>
+        </div>
+        <div class="services-block">
+          <span>Рекомендательные системы</span>
+          <p class="separator">Построю уникальную рекомендательную систему персонализированно под ваш сервис учитывая
+            специфику области.
+          </p>
+        </div>
+        <div class="services-block">
+          <span>Чат Боты</span>
+          <p class="separator">Создам чат бот на основе NLP для задачь автоматической тех поддержки вашего сервиса. </p>
+        </div>
+        <div class="services-block">
+          <span>Компьютерное зрение</span>
+          <p class="separator">Создам и обучу архитектуры для решения задачь детекции, сегментации и верификации. </p>
+        </div>
+        <div class="services-block">
+          <span>NLP</span>
+          <p class="separator">Обучу модели для интелектуальной обработки текстов для задачь машинного перевода,
+            именнованных сущностей и других. </p>
+        </div>
+        <div class="services-block">
+          <span>Поисковые системы</span>
+          <p class="separator">Разработаю поисковую систему для вашего сервиса на основе ИИ. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="text-center paddsection">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Мои увлечения</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="portfolio-list">
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">все</li>
+              <li class="filter" data-filter=".music">музыка</li>
+              <li class="filter" data-filter=".modeling">моделинг</li>
+              <li class="filter" data-filter=".sport">спорт</li>
+            </ul>
+          </div>
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/12.jpg">
+                <img src="images/portfolio/12.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/13.jpg">
+                <img src="images/portfolio/13.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail  music">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/7.jpg">
+                <img src="images/portfolio/7.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/10.jpg">
+                <img src="images/portfolio/10.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/8.jpg">
+                <img src="images/portfolio/8.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail modeling">
+              <a class="popup-img" href="images/portfolio/9.jpg">
+                <img src="images/portfolio/9.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/16.jpg">
+                <img src="images/portfolio/16.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all modeling">
+              <a class="popup-img" href="images/portfolio/11.jpg">
+                <img src="images/portfolio/11.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail music">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all music">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/14.jpg">
+                <img src="images/portfolio/14.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/15.jpg">
+                <img src="images/portfolio/15.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/17.jpg">
+                <img src="images/portfolio/17.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail sport">
+              <a class="popup-img" href="images/portfolio/18.jpg">
+                <img src="images/portfolio/18.jpg" alt="img">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
+              <video width="300" height="300" controls="controls" poster="images/portfolio/video1_pre.jpg">
+                <source src="images/portfolio/video_1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+              </video>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
+              <video width="300" height="300" controls="controls" poster="images/blog-post-1.jpg">
+                <source src="images/portfolio/video_2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+              </video>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail video">
+              <video width="300" height="300" controls="controls" poster="images/blog-post-3.jpg">
+                <source src="images/portfolio/video_4.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="journal" class="text-left paddsection">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Резюме</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-ds.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="blog-single.html">Data Scientist</a></h4>
+                <p class="separator"> Креативны подход к науке
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-model.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="#blog-model.html">Модель</a></h4>
+                <p class="separator">Разглядеть красоту в человеке
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+              <a href="blog-music.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+              <div class="journal-txt">
+                <h4><a href="blog-music.html">Вокалист</a></h4>
+                <p class="separator">В голове цифры в сердце ноты
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-contact">
+              <h2 class="mb-30">Связаться со мной</h2>
+              <ul class="contact-details">
+                <li><span>Санкт-Петербург, Россия</span></li>
+                <li><span>+79992268148</span></li>
+                <li><span>maxim652002@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+                <div id="sendmessage">Ваше письмо отправлено. Спасибо!</div>
+                <div id="errormessage"></div>
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя"
+                      data-rule="minlen:4" data-msg="Минимум 4 буквы" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Ваш email"
+                      data-rule="email" data-msg="Введите существующий email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема"
+                      data-rule="minlen:4" data-msg="Минимум 8 символов" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required"
+                      data-msg="Напишите письмо"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Отправить">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
